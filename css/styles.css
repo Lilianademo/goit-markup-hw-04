@@ -156,12 +156,14 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.what-section {
+.what-section,
+.customers {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.images-activiti {
+.images-activiti,
+.icon-list-customers{
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -394,4 +396,8 @@ background-color: #2196f3;
   padding-bottom: 25px;
   padding-right: 100px;
   padding-left:100px;
+}
+.customers{
+  display: flex;
+  flex-direction: column;
 }
