@@ -207,12 +207,13 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.footer-section {
+.footer-page {
   background: #2f303a;
 }
-.address-section {
-  background: #2f303a;
+.footer-list li{
+  display: inline-block;
 }
+
 .address-section {
   font-family: "Roboto";
   font-style: normal;
@@ -288,16 +289,10 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
-.address {
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-}
 .address-section {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  
 }
 .adress-info {
   display: flex;
@@ -362,33 +357,7 @@ section {
   align-items: center;
   border-radius: 22px;
  }
- .footer-icons{
-  display: flex;
-justify-content: center;
- }
- .icon-list-footer{
-  display: flex;
-  margin-top: 30px;
-  gap: 10px;
-  justify-content: center;
- }
- .icon-list-footer .icon-footer{
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: #757575;
- }
- .icon-list-footer .icon-footer svg{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20px;
-  height: 20px;
-  color: #ffffff;
- }
+ 
 .icon-list .icon:hover,
 .icon-list .icon:focus{
 background-color: #2196f3;
@@ -481,4 +450,46 @@ color:#757575;
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+.icon-list-footer:hover{
+  background-color: #2196f3;
+  cursor:pointer
+}
+.icon-title{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03px;
+  margin-left: 45px;
+}
+.icon-list-footer {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+.icon-list-footer svg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.icon-footer{
+  display: flex;
+  gap:10px;
+  justify-content: center;
+}
+.right-side-footer{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.left-side-footer{
+display: inline-block;
 }
