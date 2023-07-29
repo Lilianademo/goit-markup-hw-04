@@ -28,9 +28,23 @@
       </nav>
       <div>
         <ul class="right-navigation-list unstyled-list">
-          <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="number-tel" href="tel.html">+1 212-772-4150</a></li>
-        </ul>
+          <div class="mail-list">
+            <li class="contact-icon">
+                <svg class="nav-icon" width="20px" height="20px">
+                  <use xlink:href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+            </li>
+            <li><a href="mailadress">info@devstudio.com</a></li>
+          </div>
+          <div class="phone-list">
+            <li class="contact-icon mail-list">
+              <li class="contact-icon">
+                <svg class="nav-icon" width="20px" height="20px">
+                  <use xlink:href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+            </li>
+            <li><a href="+1212-772-415">+1 212-772-4150</a></li>
+          </div>
       </div>
     </div>
     </header>
@@ -49,7 +63,7 @@
       <section class="section-projects-img section-img">
         <div class="container">
         <ul class="section-projects unstyled-list">
-          <li>
+          <li class="card-list">
             <img
               width="370"
               height="294"
@@ -61,7 +75,7 @@
               <p class="service-section">Web-site</p>
             </div>
           </li>
-          <li>
+          <li class="card-list">
             <img
               width="370"
               height="294"
@@ -75,7 +89,7 @@
               <p class="service-section">Design</p>
             </div>
           </li>
-          <li>
+          <li class="card-list">
             <img
               width="370"
               height="294"
@@ -93,7 +107,7 @@
       <section class="section-projects-img section-img">
         <div class="container">
         <ul class="section-projects unstyled-list">
-          <li>
+          <li class="card-list">
             <img
               width="370"
               height="294"
@@ -105,7 +119,7 @@
               <p class="service-section">Marketing</p>
             </div>
           </li>
-          <li>
+          <li class="card-list">
             <img
               width="370"
               height="294"
@@ -117,7 +131,7 @@
               <p class="service-section">Apps</p>
             </div>
           </li>
-          <li>
+          <li class="card-list">
             <img
               width="370"
               height="294"
@@ -135,7 +149,7 @@
       <section class="section-projects-img">
         <div class="container">
         <ul class="section-projects unstyled-list">
-          <li>
+          <li class="card-list">
             <img
               width="370"
               height="294"
@@ -147,7 +161,7 @@
               <p class="service-section">Design</p>
             </div>
           </li>
-          <li>
+          <li class="card-list">
             <img
               width="370"
               height="294"
@@ -159,7 +173,7 @@
               <p class="service-section">Marketing</p>
             </div>
           </li>
-          <li>
+          <li class="card-list">
             <img
               width="370"
               height="294"
@@ -176,16 +190,53 @@
       </section>
     </section>
     <footer class="footer-page">
-      <address class="address-section">
-        <div class="container address-section">
-        <a class="page-logo-footer" href href="WebStudio">Web</a>
-        <ul class="adress-info unstyled-list">
-          <li class="adress-page">695 Park Ave, NY 10065, USA</li>
-          <li>info@devstudio.com</li>
-          <li>+1 212-772-4150</li>
+      <div class="container">
+      <div class="footer-section">
+        <ul class="footer-list">
+          <li>
+            <div class="left-side-footer">
+              <address class="address-section">
+                <div class="address-section">
+                  <a class="page-logo-footer" href="WebStudio">Web</a>
+                  <ul class="adress-info unstyled-list">
+                    <li>95 Park Ave, NY 10065, USA</li>
+                    <li>info@devstudio.com</li>
+                    <li>+1 212-772-4150</li>
+                  </ul>
+                </div>
+              </address>
+            </div>
+          </li>
+          <li>
+            <div class="right-side-footer">
+              <p class="icon-title">Find us on</p>
+              <ul class="icon-footer">
+                <li class="icon-list-footer">
+                  <svg width="20px" height="20px" >
+                    <use xlink:href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </li>
+                <li class="icon-list-footer">
+                  <svg width="20px" height="20px">
+                    <use xlink:href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </li>
+                <li class="icon-list-footer">
+                  <svg width="20px" height="20px">
+                    <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+                <li class="icon-list-footer">
+                  <svg width="20px" height="20px">
+                    <use xlink:href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </div>
-      </address>
+    </div>
     </footer>
   </body>
 </html>
